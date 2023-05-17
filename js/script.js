@@ -9,7 +9,7 @@ const costo = 0.21;
 let prezzo_completo = (km * costo);
 
 //alert nel caso in cui non si inseriscano valori numerici
-if (isNaN(km) || isNaN(età)){
+if (isNaN(km) || isNaN(età) || km === 0 || età === 0){
     alert('Prego, inserire dei valori validi!');
 }
 else{
